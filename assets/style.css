@@ -1,23 +1,10 @@
 
+/*=====BASICS=====*/
+
 body {
-  background-color: lightgrey;
+  background-image: url("images/gplaypattern.png");
   margin: 0 auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.tr-nav {
-  padding: 0;
-}
-
-.tr-nav-links {
-  margin-left: 43em;
-}
-
-.tr-nav-item {
-  padding-right: 0;
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .tr-container {
@@ -25,10 +12,34 @@ body {
 }
 
 h1, h3, h5 {
-  /*display: inline-block;*/
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bolder;
+  color: #9239F8
 }
+
+/*=====NAV STYLES======*/
+
+.tr-nav {
+  padding: 0;
+  border-bottom: 2px solid lightgray;
+}
+
+.tr-nav-links {
+  margin-left: 43em;
+  color: lime;
+}
+
+.tr-nav-links a {
+}
+
+.tr-nav-item {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-right: 1px solid lightgrey;
+}
+
 
 .tr-brand {
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -38,25 +49,67 @@ h1, h3, h5 {
   padding: 0.5em;
   margin-left: 2.5em;
   margin-bottom: 0;
-  background-color: purple;
+  background-color: #9239F8;
 }
+
+/*=====CONTACT SIDEBAR=====*/
 
 .tr-contact {
   background-color: white;
+  border: 1px dotted lime;
   padding: 35px;
-  /*margin: 0 auto;*/
   margin: 0;
   margin-top: 0;
 }
 
+.tr-contact h5 {
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 0.7em;
+}
+
+.tr-soc-btn {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+/*=====CONTENT STYLES======*/
+
 .tr-about {
   padding: 30px;
   margin: auto;
+  border: 1px dotted lime;
+  margin-bottom: 60px;
 }
 
 .tr-content {
   padding: 1em;
 }
+
+/*=====PORTFOLIO PAGE=====*/
+
+.tr-card {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin: 3em;
+}
+
+.tr-card h4 {
+  margin-top: 5em;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #9239F8;
+  font-size: 1.3em;
+}
+
+.tr-img-overlay {
+  padding: 0;
+  border: 2px solid lime;
+}
+
+
+/*====ABOUT PAGE====*/
 
 .my-img {
   float: left;
@@ -67,30 +120,28 @@ h1, h3, h5 {
 }
 
 .tr-about h3 {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid lightgrey;
   padding-bottom: 0.5em;
 }
 
-.tr-contact h5 {
-  border-bottom: 2px solid grey;
-  padding-bottom: 0.7em;
-}
 
-.tr-soc-btn {
-  margin-left: 1em;
-  margin-right: 0.5em;
-}
+/*=====FOOTER STYLES=====*/
+
+
  .footer-p {
   margin-bottom: 0;
   text-align: center;
   font-size: 10px;
+  color: lime;
  }
 
 .tr-footer {
   background-color: darkgray;
-  border-top: 2px solid purple;
+  border-top: 4px solid #9239F8;
 }
-/*====================*/
+
+
+/*======MEDIA QUERIES======*/
 
 
 @media screen and (max-width : 1198px) {
@@ -121,4 +172,23 @@ h1, h3, h5 {
     text-align: center;
   }
 
+  .tr-card {
+    width: -webkit-fill-available;
+  }
+
+  .tr-card h4 {
+    margin-top: 10em;
+  }
+
+  .my-img {
+    width: -webkit-fill-available;
+  }
+
 }
+
+/*=======TRICKS=========*/
+
+a:link {color: blue;}
+a:visited {color: #932AFC;}
+a:hover {background-color: lime;}
+a:active {color: yellow;}

@@ -162,6 +162,14 @@ h1, h3, h5 {
 
 @media screen and (max-width : 768px) {
 
+  .tr-brand {
+    margin-left: 4em;
+  }
+
+  .tr-toggler {
+    margin-right: 7.5em;
+  }
+
   .tr-contact {
     margin-top: 2em;
     margin-bottom: 3em;

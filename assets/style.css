@@ -37,6 +37,10 @@ h1, h3, h5 {
   padding-left: 0;
   margin-left: 0;
   margin-right: 0;
+  /*border-right: 1px solid lightgrey;*/
+}
+
+.tr-border {
   border-right: 1px solid lightgrey;
 }
 
@@ -47,7 +51,7 @@ h1, h3, h5 {
   color: white;
   padding-left: 2em;
   padding: 0.5em;
-  margin-left: 2.5em;
+  margin-left: 3em;
   margin-bottom: 0;
   background-color: #9239F8;
 }
@@ -138,6 +142,7 @@ h1, h3, h5 {
 .tr-footer {
   background-color: darkgray;
   border-top: 4px solid #9239F8;
+  padding-bottom: 4em;
 }
 
 
@@ -163,7 +168,7 @@ h1, h3, h5 {
 @media screen and (max-width : 768px) {
 
   .tr-brand {
-    margin-left: 4em;
+    margin-left: 1.5em;
   }
 
   .tr-toggler {
@@ -171,7 +176,7 @@ h1, h3, h5 {
   }
 
   .tr-contact {
-    margin-top: 2em;
+    /*margin-top: 2em;*/
     margin-bottom: 3em;
   }
 
